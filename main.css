@@ -1,0 +1,25 @@
+.window {
+  overflow: hidden;
+  width: 300px;
+}
+
+.images {
+  display: flex;
+  align-items: flex-start;
+  transition: all 0.5s;
+}
+
+.ts1 {
+   transform: translateX(0px); 
+}
+.ts2 {
+   transform: translateX(-300px); 
+}
+
+.ts3 {
+   transform: translateX(-600px); 
+}
+
+.red {
+  color: red;
+}
